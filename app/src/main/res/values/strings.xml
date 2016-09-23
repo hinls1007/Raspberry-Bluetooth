@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">RaspberryBluetoothController</string>
+
+
+
+    <string name="device_name_hint">Device Name</string>
+    <string name="message_hint">Message</string>
+    <string name="start_btn">Start Search</string>
+    <string name="send_btn">Send Message</string>
 </resources>
