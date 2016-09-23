@@ -29,8 +29,7 @@ public class BluetoothService {
 	private static final String NAME_INSECURE = "BluetoothInsecure";
 
 	//The UUID Which need the same of the UUID on the device
-	private static final UUID MY_UUID_INSECURE =
-			UUID.fromString("94f39d29-7d6d-437d-973b-fba39e49d4ee");
+	private static final UUID MY_UUID_INSECURE = UUID.fromString("94f39d29-7d6d-437d-973b-fba39e49d4ee");
 
 	// Member fields
 	private final BluetoothAdapter mAdapter;
