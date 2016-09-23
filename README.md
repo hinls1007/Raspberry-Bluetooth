@@ -20,3 +20,21 @@ After the device was found, the 'SEND MESSAGE' Button will disable.
 The 'SEND MESSAGE' Button will enable for send message to the Bluetooth device.
 
 After enter the String you want to send in the Message field, press 'SEND MESSAGE' Button to send the String to Bluetooth device. The return String will display under the 'SEND MESSAGE' Button
+
+
+
+In the RaspberryPi folder, there are python code for the bluetooth connection and data transfer
+
+In the bluetooth.py, the uuid must be config to the same as the MY_UUID_INSECURE in the BluetoothService class in Android part
+
+```python
+uuid = "94f39d29-7d6d-437d-973b-fba39e49d4ee"
+```
+
+Before the running this python code
+The Raspberry pi need to install the bluetooth and bluez module for python
+
+
+```
+sudo apt-get install bluetooth bluez python-bluez
+```
